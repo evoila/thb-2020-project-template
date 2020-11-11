@@ -37,4 +37,4 @@ out/
 .vscode/
 
 ### Configuration Properties ###
-bird-backend/src/main/resources/application.properties
+/src/main/resources/application.properties
