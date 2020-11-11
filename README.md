@@ -4,7 +4,7 @@ This is a clean & empty Angular project generated with [Angular CLI](https://git
 
 To enable a smooth start for you we added the following:
 
-- [Clarity UI](https://clarity.design/documentation) hast installed as a UI Framework.
+- [Clarity UI](https://clarity.design/documentation) added as a UI Framework.
 - An injectable Notification Service
 - Notification-Banner Component
 - Example Component showing the Service and Banner in action, as well as a simple modal. 
