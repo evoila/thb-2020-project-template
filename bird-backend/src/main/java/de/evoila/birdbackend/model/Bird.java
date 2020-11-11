@@ -1,5 +1,8 @@
 package de.evoila.birdbackend.model;
 
+import javax.persistence.Table;
+
+@Table(name = "birds")
 public class Bird extends BaseEntity {
 
     private String name;
