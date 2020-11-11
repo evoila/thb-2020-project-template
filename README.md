@@ -10,7 +10,7 @@ To enable a smooth start for you we added the following:
 - Notification-Banner Component
 - Example Component showing the Service and Banner in action, as well as a simple modal. 
 
-![alt text](https://raw.githubusercontent.com/my-org/assets/master/folder/logo.png)
+![screenshot](../media/screenshot.png)
 
 
 ## Development server
