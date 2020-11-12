@@ -1,8 +1,10 @@
 package de.evoila.birdbackend.model;
 
+import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Table(name = "birds")
+@Entity
 public class Bird extends BaseEntity {
 
     private String name;

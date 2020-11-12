@@ -45,8 +45,6 @@ public class BirdController {
 
     @PostMapping
     public Bird post(@RequestBody Bird bird) {
-
-
         log.info("Updating " + bird);
         return repository.save(bird);
     }
