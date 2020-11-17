@@ -7,6 +7,14 @@
 # Only exists if Bazel was run
 /bazel-out
 
+bird-backend/.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.DS_Store
+
+
 # dependencies
 /node_modules
 
@@ -31,6 +39,15 @@ speed-measure-plugin*.json
 !.vscode/extensions.json
 .history/*
 
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
 # misc
 /.sass-cache
 /connect.lock
@@ -40,6 +57,16 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+
+### STS ###
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
 # System Files
 .DS_Store
